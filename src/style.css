@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero__img{
+    width: 30rem;
+}
+
+.hero__img--sm{
+    width: 20rem;
+}
+
+.container-custom{
+   @apply max-w-6xl mx-auto;
+}
+
+.pricing-card{
+    height: 450px;
+}
+
+.pricing-card-main{
+    height: 550px;
+}
+
+footer{
+   background-color: #061d36;
+}
