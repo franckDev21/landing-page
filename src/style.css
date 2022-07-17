@@ -12,6 +12,7 @@
 
 .container-custom{
    @apply max-w-6xl mx-auto;
+   width: calc(100% - 40px);
 }
 
 .pricing-card{
