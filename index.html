@@ -24,13 +24,22 @@
           <img src="./src/assets/logo.svg" alt="logo" srcset="">
         </a>
 
-        <div class="hidden lg:block">
+        <input hidden type="checkbox" id="menu-burger-input">
+
+        <div class="hidden lg:block menu z-10">
           <a href="#" class="mr-4">Hosting</a>
           <a href="#" class="mr-4">Domain</a>
           <a href="#" class="mr-4">Support</a>
           <a href="#" class="mr-4">Affiliates</a>
           <a href="#">Partenership</a> 
+          
+          <label for="menu-burger-input" class="lg:hidden cursor-pointer absolute right-6 top-6 transition-opacity opacity-50 hover:opacity-100">
+            <i class="las la-times text-3xl"></i>
+          </label>
         </div>
+        <label for="menu-burger-input" class="lg:hidden cursor-pointer">
+          <i class="las la-bars text-3xl"></i>
+        </label>
       </nav>
 
       <div class="mt-20 flex items-center">
